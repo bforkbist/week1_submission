@@ -1,7 +1,7 @@
 # Introduction
 This repository contains a demo Django project which was built using 
   Django version 2.2.5
-  Python 3.8.1
+  and Python 3.8.1
   
   
 ## What we can do?
