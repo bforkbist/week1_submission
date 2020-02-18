@@ -14,6 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TEMPLATES_Dir= os.path.join(BASE_DIR,'template')
 
 
 # Quick-start development settings - unsuitable for production
@@ -58,7 +59,9 @@ ROOT_URLCONF = 'test_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            TEMPLATES_Dir,
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
