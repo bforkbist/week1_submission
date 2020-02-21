@@ -1,0 +1,48 @@
+Q.1 Write a program to read the q2sample.csv file and return the highest and lowest raised amount which is having key "raisedAmt" in given file. 
+
+
+
+ 
+Q.2 Write a program to print the pattern for given dimensions.
+Take dimensions as user input as space separated values of type string(example: "7 27").
+first value 7 is the number of lines and second value 21 is the number of columns. 
+
+    Size: 7 x 21
+								
+    ---------.|.---------
+    ------.|..|..|.------
+    ---.|..|..|..|..|.---
+    -------WELCOME-------
+    ---.|..|..|..|..|.---
+    ------.|..|..|.------
+    ---------.|.---------
+    
+Input
+
+A single line containing the space separated values of i and j .
+9 27
+
+
+
+Output:
+
+------------.|.------------
+---------.|..|..|.---------
+------.|..|..|..|..|.------
+---.|..|..|..|..|..|..|.---
+----------WELCOME----------
+---.|..|..|..|..|..|..|.---
+------.|..|..|..|..|.------
+---------.|..|..|.---------
+------------.|.------------
+
+
+
+
+Q3. Write a program to find the numeric patern given by user in given file.Return the line number along with the pattern and fing all the patterns.
+example:
+file includes :   2334456788988689
+		  4564565687898874
+		  7757786897677888
+input=775
+out= line number 3, 7757786897677888
